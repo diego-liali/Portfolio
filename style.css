@@ -152,11 +152,12 @@ h1 {
 }
 
 .projetos-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .projeto-card {
