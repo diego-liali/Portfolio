@@ -94,6 +94,11 @@ h1 {
     color: var(--cor4);
 }
 
+.impacto {
+    font-size: 1.3rem;
+    margin: 20px;
+}
+
 .sobre-mim {
     background: var(--cor3);
 }
@@ -191,7 +196,6 @@ h1 {
 
 #contato {
     background-color: var(--cor2);
-    /* fundo escuro */
     text-align: center;
     padding: 8rem 2rem;
     color: var(--cor4);
